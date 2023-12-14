@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="./css/style.css">
+  
+</head>
+<body>
+  <div class="container">
+    <div class="regform">Registration</div>
+    <form action="#">
+      <div class="user-deets">
+       <div class="input-box">
+         <p class="details">Full name</p>
+         <input type="text" placeholder="Enter your name">
+       </div>
+       <div class="input-box">
+         <p class="details">Username</p>
+         <input type="text" placeholder="Enter your Username">
+       </div>
+       <div class="input-box">
+         <p class="details">Email</p>
+         <input type="text" placeholder="Enter your Email">
+       </div>
+       <div class="input-box">
+         <p class="details">Phone Number</p>
+         <input type="text" placeholder="Ente your Phone Number">
+       </div>
+       <div class="input-box">
+         <p class="details">Password</p>
+         <input type="text" placeholder="Enter your Password">
+       </div>
+       <div class="input-box">
+         <p class="details">Confirm Password</p>
+         <input type="text" placeholder="Confirm your Password">
+       </div>
+      </div>
+      <div class="gender-details">
+        <input type="radio" name="gender" id="male">
+        <input type="radio" name="gender" id="female">
+        <input type="radio" name="gender" id="prefer">
+        <p class="gender-title">Gender</p>
+        <div class="category">
+          <label for="male">
+            <span class="gen male"></span>
+            <span class="gender">Male</span>
+          </label>
+         <label for="female">
+            <p class="gen female"></p>
+            <p class="gender">Female</p>
+          </label>
+          <label for="prefer">
+            <p class="gen prefer"></p>
+            <p class="gender">Prefare not to say</p>
+          </label>
+        </div>
+      </div>
+      <div class="button">
+        <input type="submit" value="Register" >
+      </div>
+    </form>
+  </div>
+</body>
+</html>
